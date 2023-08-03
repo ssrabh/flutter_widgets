@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/presentation/screens/bottomappbar/default_bottomapp.dart';
 import 'package:flutter_widgets/presentation/screens/tabbar/defualt_tab.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyTab(),
+      // home: const MyTab(),
+      home: const MyBottomAppBar(),
     );
   }
 }
